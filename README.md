@@ -1,2 +1,2 @@
 # cool-clock
-A cool timer clock!
+A cool timer app!
