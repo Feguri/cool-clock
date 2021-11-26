@@ -1,0 +1,54 @@
+html {
+    color: white;
+    background-color: black;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: large;
+}
+.pointer {
+    cursor: pointer;
+}
+.centralize {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    padding: 10px;
+    background-color: transparent;
+    color: #e2e2e2;
+    border: 1px solid #f0f0f0;
+}
+
+.main-content {
+    transform: scale(1.5);
+}
+
+.button:hover {
+    background: -webkit-linear-gradient(68deg, #fb323257, #395de157);;
+}
+.no-margin {
+    margin: 0;
+}
+.clock-style {
+    font-size: 5rem;
+    width: 338px;
+    font-family: fantasy;
+    letter-spacing: 7px;
+    background: -webkit-linear-gradient(68deg, #fb3232, #395ee1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 6px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-content {
+        transform: scale(2.4);
+    }
+}
